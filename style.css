@@ -8,11 +8,6 @@
 .logo {
   padding: 0px 4px 0px;
 }
-.new-post {
-  margin: 0px 5px;
-  background-color: green;
-  color: white;
-}
 .navbar .logo-container .brand-text {
   position: relative;
   top: -3px;
@@ -20,6 +15,11 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
+}
+.new-post {
+  margin: 0px 5px;
+  background-color: green;
+  color: white;
 }
 .dropdown-toggle {
   background-color: grey;
@@ -44,6 +44,7 @@
   border-top: solid 1px grey;
 }
 .card {
+  max-width: 500px;
   margin: 10px 0;
   border-radius: 0 !important;
   box-shadow: 0px 0px 5px lightgrey;
@@ -53,8 +54,20 @@
   justify-content: space-between;
   align-items: center;
 }
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+.card-date {
+  font-size: 16px;
+  color: grey;
+  font-weight: bold;
+}
 .card-img-top {
   border-radius: 0 !important;
-  width: 500px;
-  height: auto;
+}
+
+.likes-qty {
+  font-weight: bold;
 }
