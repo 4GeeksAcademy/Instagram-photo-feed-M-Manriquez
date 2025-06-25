@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
+
   <body>
     <header>
       <div class="container">
@@ -57,108 +58,139 @@
       </div>
     </header>
     <main>
-      <div class="container mt-5 posts posts">
-        <div class="row">
-          <div class="col-12 d-flex justify-content-center mb-3">
-            <div class="card straight-border">
-              <div class="card-body p-0">
-                <div class="card-title-container ps-2 pe-2 pb-2">
-                  <h5 class="card-title ps-2 pe-2 pt-2">My Crazy dog Spark!</h5>
-                  <p class="card-date">06/10</p>
+      <div class="container mt-5">
+        <ul class="nav nav-pills justify-content-center mb-4">
+          <li class="nav-item mx-3">
+            <button
+              class="nav-link active"
+              data-bs-toggle="tab"
+              data-bs-target="#posts"
+              type="button"
+            >
+              <i class="fa-solid fa-table-cells fa-2x"></i>
+            </button>
+          </li>
+          <li class="nav-item mx-3">
+            <button
+              class="nav-link"
+              data-bs-toggle="tab"
+              data-bs-target="#photo-gallery"
+              type="button"
+            >
+              <i class="fa-solid fa-image fa-2x"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-content">
+        <div class="tab-pane fade show active">
+          <div class="container mt-5 posts posts" id="posts">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center mb-3">
+                <div class="card straight-border">
+                  <div class="card-body p-0">
+                    <div class="card-title-container ps-2 pe-2 pb-2">
+                      <h5 class="card-title ps-2 pe-2 pt-2">
+                        My Crazy dog Spark!
+                      </h5>
+                      <p class="card-date">06/10</p>
+                    </div>
+                  </div>
+                  <img
+                    class="card-img-top straight-border"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cute_dog.jpg/2560px-Cute_dog.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="likes-qty">204 Likes</p>
+                    <p class="comment">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nobis error omnis similique minus ducimus magnam natus,
+                      nulla, iure recusandae quam facere inventore rerum cumque
+                      maiores? Nobis, voluptas esse. Quia, reprehenderit!
+                    </p>
+                  </div>
                 </div>
               </div>
-              <img
-                class="card-img-top straight-border"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cute_dog.jpg/2560px-Cute_dog.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <p class="likes-qty">204 Likes</p>
-                <p class="comment">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Nobis error omnis similique minus ducimus magnam natus, nulla,
-                  iure recusandae quam facere inventore rerum cumque maiores?
-                  Nobis, voluptas esse. Quia, reprehenderit!
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-12 d-flex justify-content-center mb-3">
-            <div class="card straight-border">
-              <div class="card-body p-0">
-                <div class="card-title-container ps-2 pe-2 pb-2">
-                  <h5 class="card-title ps-2 pe-2 pt-2">
-                    Stratovarius in Chile!
-                  </h5>
-                  <p class="card-date">06/10</p>
+              <div class="col-12 d-flex justify-content-center mb-3">
+                <div class="card straight-border">
+                  <div class="card-body p-0">
+                    <div class="card-title-container ps-2 pe-2 pb-2">
+                      <h5 class="card-title ps-2 pe-2 pt-2">
+                        Stratovarius in Chile!
+                      </h5>
+                      <p class="card-date">06/10</p>
+                    </div>
+                  </div>
+                  <img
+                    class="card-img-top straight-border"
+                    src="https://live.staticflickr.com/65535/54457053339_5787fe1df0_z.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="likes-qty">127 Likes</p>
+                    <p class="comment">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Officiis laboriosam, dignissimos, iure dolor magnam
+                      consectetur vero ratione cumque aut alias aliquam,
+                      suscipit quam illum facere sed et temporibus quibusdam
+                      beatae!
+                    </p>
+                  </div>
                 </div>
               </div>
-              <img
-                class="card-img-top straight-border"
-                src="https://live.staticflickr.com/65535/54457053339_5787fe1df0_z.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <p class="likes-qty">127 Likes</p>
-                <p class="comment">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis laboriosam, dignissimos, iure dolor magnam
-                  consectetur vero ratione cumque aut alias aliquam, suscipit
-                  quam illum facere sed et temporibus quibusdam beatae!
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-12 d-flex justify-content-center mb-3">
-            <div class="card straight-border">
-              <div class="card-body p-0">
-                <div class="card-title-container ps-2 pe-2 pb-2">
-                  <h5 class="card-title ps-2 pe-2 pt-2">BABYMETAL!</h5>
-                  <p class="card-date">06/10</p>
+              <div class="col-12 d-flex justify-content-center mb-3">
+                <div class="card straight-border">
+                  <div class="card-body p-0">
+                    <div class="card-title-container ps-2 pe-2 pb-2">
+                      <h5 class="card-title ps-2 pe-2 pt-2">BABYMETAL!</h5>
+                      <p class="card-date">06/10</p>
+                    </div>
+                  </div>
+                  <img
+                    class="card-img-top straight-border"
+                    src="https://i.pinimg.com/236x/fb/2c/09/fb2c09a923e27335768d8dc98fad9ce2.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="likes-qty">44 Likes</p>
+                    <p class="comment">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptatibus molestias, architecto vel aperiam suscipit
+                      aliquid sed minus officia quisquam illum accusamus impedit
+                      dolor, provident voluptatum quidem fuga totam eaque ipsam?
+                    </p>
+                  </div>
                 </div>
               </div>
-              <img
-                class="card-img-top straight-border"
-                src="https://i.pinimg.com/236x/fb/2c/09/fb2c09a923e27335768d8dc98fad9ce2.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <p class="likes-qty">44 Likes</p>
-                <p class="comment">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatibus molestias, architecto vel aperiam suscipit
-                  aliquid sed minus officia quisquam illum accusamus impedit
-                  dolor, provident voluptatum quidem fuga totam eaque ipsam?
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-12 d-flex justify-content-center mb-3">
-            <div class="card straight-border">
-              <div class="card-body p-0">
-                <div class="card-title-container ps-2 pe-2 pb-2">
-                  <h5 class="card-title ps-2 pe-2 pt-2">
-                    Gloryhammer UK Tour!
-                  </h5>
-                  <p class="card-date">06/10</p>
+              <div class="col-12 d-flex justify-content-center mb-3">
+                <div class="card straight-border">
+                  <div class="card-body p-0">
+                    <div class="card-title-container ps-2 pe-2 pb-2">
+                      <h5 class="card-title ps-2 pe-2 pt-2">
+                        Gloryhammer UK Tour!
+                      </h5>
+                      <p class="card-date">06/10</p>
+                    </div>
+                  </div>
+                  <img
+                    class="card-img-top straight-border"
+                    src="https://distortedsoundmag.com/wp-content/uploads/2019/02/Gloryhammer-UK-Tour-2019.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="likes-qty">319 Likes</p>
+                    <p class="comment">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Sint eligendi nam in dicta modi repellat minima rerum
+                      dolor, excepturi atque? Temporibus, eius pariatur
+                      laudantium excepturi doloremque explicabo illo quas error.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <img
-                class="card-img-top straight-border"
-                src="https://distortedsoundmag.com/wp-content/uploads/2019/02/Gloryhammer-UK-Tour-2019.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <p class="likes-qty">319 Likes</p>
-                <p class="comment">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
-                  eligendi nam in dicta modi repellat minima rerum dolor,
-                  excepturi atque? Temporibus, eius pariatur laudantium
-                  excepturi doloremque explicabo illo quas error.
-                </p>
               </div>
             </div>
           </div>

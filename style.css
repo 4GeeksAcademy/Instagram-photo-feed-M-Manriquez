@@ -43,6 +43,13 @@
   color: red;
   border-top: solid 1px grey;
 }
+.nav-pills .nav-link {
+  color: grey;
+}
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  color: black;
+}
 .card {
   max-width: 500px;
   margin: 10px 0;
