@@ -77,8 +77,10 @@
 .likes-qty {
   font-weight: bold;
 }
-#photo-gallery .img-fluid {
+.photo-gallery .img-fluid {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
+/* TODO: cambiar el color en el hover del dropdown-item  */
+/* TODO: arreglar la altura de las tres ultimas fotos del photo-gallery  */
