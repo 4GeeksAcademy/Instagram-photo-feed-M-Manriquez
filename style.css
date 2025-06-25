@@ -1,12 +1,17 @@
+.straight-border {
+  border-radius: 3px !important;
+}
 .navbar {
   padding: 1px 0 5px;
+  background-color: rgb(248, 248, 248);
 }
 .logo {
   padding: 0px 4px 0px;
 }
-.btn {
+.new-post {
   margin: 0px 5px;
   background-color: green;
+  color: white;
 }
 .navbar .logo-container .brand-text {
   position: relative;
@@ -16,7 +21,40 @@
   font-weight: 600;
   font-size: 16px;
 }
+.dropdown-toggle {
+  background-color: grey;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
 .dropdown-menu {
-  min-width: 200px;
+  min-width: 100px !important;
+  width: 120px !important;
   color: black;
+}
+.dropdown-menu .dropdown-item {
+  white-space: normal;
+  overflow: hidden;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+.dropdown-menu .logout {
+  color: red;
+  border-top: solid 1px grey;
+}
+.card {
+  margin: 10px 0;
+  border-radius: 0 !important;
+  box-shadow: 0px 0px 5px lightgrey;
+}
+.card-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-img-top {
+  border-radius: 0 !important;
+  width: 500px;
+  height: auto;
 }
