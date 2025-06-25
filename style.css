@@ -74,7 +74,11 @@
 .card-img-top {
   border-radius: 0 !important;
 }
-
 .likes-qty {
   font-weight: bold;
+}
+#photo-gallery .img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
