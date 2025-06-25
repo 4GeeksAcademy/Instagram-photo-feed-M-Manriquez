@@ -1,0 +1,22 @@
+.navbar {
+  padding: 1px 0 5px;
+}
+.logo {
+  padding: 0px 4px 0px;
+}
+.btn {
+  margin: 0px 5px;
+  background-color: green;
+}
+.navbar .logo-container .brand-text {
+  position: relative;
+  top: -3px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+.dropdown-menu {
+  min-width: 200px;
+  color: black;
+}
