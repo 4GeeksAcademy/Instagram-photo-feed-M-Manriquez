@@ -64,8 +64,8 @@
                 "es": "README.es.md",
                 "us": "README.md"
             },
-            "language": "python3",
-            "entry": null,
+            "language": "html",
+            "entry": "index.html",
             "title": "default-index",
             "graded": false,
             "files": [
@@ -83,6 +83,11 @@
                     "path": ".//.vscode",
                     "name": ".vscode",
                     "hidden": true
+                },
+                {
+                    "path": ".//index.html",
+                    "name": "index.html",
+                    "hidden": false
                 },
                 {
                     "path": ".//learn.json",
@@ -108,6 +113,11 @@
                     "path": ".//server.py",
                     "name": "server.py",
                     "hidden": false
+                },
+                {
+                    "path": ".//style.css",
+                    "name": "style.css",
+                    "hidden": false
                 }
             ],
             "done": false
@@ -116,5 +126,5 @@
     "bugsLink": null,
     "videoSolutions": false,
     "localhostOnly": false,
-    "session": 7758985132531107000
+    "session": 3300335659439108600
 }

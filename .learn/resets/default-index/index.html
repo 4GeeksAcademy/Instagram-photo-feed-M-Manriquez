@@ -13,14 +13,8 @@
       src="https://kit.fontawesome.com/a259d7db0e.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Boldonse&family=Dancing+Script:wght@400..700&family=Delius&family=Doto:wght@100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
-    <title>Instagram Photo Feed</title>
+    <title>Document</title>
   </head>
 
   <body>
@@ -33,72 +27,10 @@
             <i class="fa-brands fa-instagram logo"></i
             ><span class="brand-text">Instagram</span></a
           >
-          <div class="d-flex align-items-center gap-3 new-post">
-            <button
-              type="button"
-              class="btn btn-primary new-post-button green-button"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
+          <div class="d-flex align-items-center">
+            <button class="btn btn-outline-success new-post" type="button">
               Create a new post
             </button>
-
-            <div
-              class="modal fade new-post-modal"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">
-                      Create a new post
-                    </h1>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Caption:</p>
-                    <textarea
-                      class="modal-text-area mb-3 ps-3 pe-2 pt-1"
-                      id=""
-                      rows="3"
-                      placeholder="Add a caption of your post here"
-                    ></textarea>
-                    <div class="modal-body-buttons">
-                      <button class="modal-photo">
-                        <i class="fa-solid fa-camera"></i>
-                      </button>
-                      <button class="modal-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                      </button>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-primary publish-button green-button"
-                    >
-                      Publish
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div class="dropdown">
               <button
                 class="btn btn-secondary dropdown-toggle"
@@ -213,13 +145,13 @@
                 <div class="card straight-border">
                   <div class="card-body p-0">
                     <div class="card-title-container ps-2 pe-2 pb-2">
-                      <h5 class="card-title ps-2 pe-2 pt-2">ALESTORM!</h5>
+                      <h5 class="card-title ps-2 pe-2 pt-2">BABYMETAL!</h5>
                       <p class="card-date">06/10</p>
                     </div>
                   </div>
                   <img
                     class="card-img-top straight-border"
-                    src="https://m.media-amazon.com/images/I/81VmfqCI9VL._UF1000,1000_QL80_.jpg"
+                    src="https://i.pinimg.com/236x/fb/2c/09/fb2c09a923e27335768d8dc98fad9ce2.jpg"
                     alt=""
                   />
                   <div class="card-body">
@@ -354,6 +286,7 @@
           </div>
         </div>
       </div>
+      // TODO: Agregar un modal para crear un nuevo post.
     </main>
     <footer></footer>
     <script
